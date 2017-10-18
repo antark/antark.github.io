@@ -18,7 +18,7 @@ html{
 body{
   background: url(../images/blueprint-dark.png) repeat;
   background-color: rgba(184, 172, 81, 0.07);
-  font-size: 12px;
+  font-size: 13px;
   -webkit-text-stroke: 1px rgba(0,0,0,0.1);
   text-shadow: #000 0px 0px 0px;
   width: 100%;
@@ -48,7 +48,7 @@ p{
   text-indent: 2em;
   margin: 0.4em 0;
   font-size: 1.0em;
-  line-height: 2.3em;
+  line-height: 2.1em;
 }
 footer p{
   text-indent: 0;
@@ -84,31 +84,7 @@ hr{
   text-transform: uppercase;
 }
 
-.img_xinshang{
-  border:1px solid #eee;
-  border-width: 0 0 0 1px;
-  margin-top: 3em;
-}
-.img_xinshang .btn-link{
-}
-.img_xinshang .btn-link.a_circle{
-}
-.img_xinshang img{
-  height: 100px;
-  border: 1px solid #eee;
-  width: 100px;
-}
-.close{
-  text-shadow: none;
-}
-.upload_image .table td, .upload_image .table th{
-    text-align: center;
-    vertical-align:middle;
-}
 /************************************ 修改 bootstrap 样式 ***********************************/
-.col-md-offset-half{
-  margin-left: 2%;
-}
 /* 表格 table 部分 */
 .table{
   margin: 1em 0;
@@ -145,38 +121,6 @@ input{
   padding: 0 2px;
 }
 
-.panel{
-  margin-bottom: 0;
-  border-radius: 0;
-}
-.panel .panel-heading{
-  border-radius: 0;
-}
-.panel .panel-heading h3{
-  font-size: 1.0em;
-}
-.panel .btn{
-}
-#notes_list{
-  margin: 0;
-  position: relative;
-  top: 20px;
-  left: 0;
-  /*border: 1px solid #bbb;*/
-}
-#notes_list li{
-  list-style: none;
-}
-.gallery #notes_list li{
-  border: 1px solid #eee;
-  min-height: 100px;
-}
-#notes_list img{
-  width: 165px;
-  border: 1px solid #bbb;
-  padding: 5px;
-  min-height: 185px;
-}
 
 /************************************ 颜色 color ***********************************/
 
@@ -221,6 +165,11 @@ a:hover {
 	text-decoration: none;
 }
 
+a, a:visited, a:link{
+  text-decoration: none;
+  color: black;
+}
+
 [class^="icon-"], [class*=" icon-"] {
 	vertical-align: middle;
 }
@@ -238,70 +187,6 @@ a:hover {
   width: 150px;
   height: 25px;
   margin: 0 10px;
-}
-.container.posts{
-  /*border: 1px solid #dfdfdf;
-  padding: 0 20px;*/
-}
-.post div.post{
-  margin: 20px 0;
-}
-.posts h3{
-  font-size: 1.3em;
-  margin: 10px 0;
-}
-.posts .btn{
-}
-.posts_more{
-  display: inline;
-  float: left;
-}
-.posts li hr{
-  margin: 5px 0;
-  border-top-color: #bbb;
-}
-.posts #notes_list li{
-  border: 1px solid #eee;
-  border-width: 0 0 0 1px;
-  margin-left: 0;
-  padding-left: 1.5em;
-  clear: both;
-}
-.posts .posts_list li div{
-  display: inline-block;
-  margin-right: 8px;
-}
-.posts .posts_list li div:nth-child(3n+1){
-  min-width: 50%;
-}
-.posts .posts_list li div:nth-child(3n+2){
-  width: 20%;
-}
-.posts .posts_list li div:nth-child(3n){
-}
-.post_edit .tag{
-  height: 3em;
-}
-.tag span{
-  vertical-align: sub;
-  padding: 0 4px;
-}
-.tag div{
-  vertical-align: text-top;
-}
-.tag span{
-}
-.post_edit .tag div{
-  width: 30%;
-  display: inline-block;
-  background-color: white;
-  height: 2em;
-  border-radius: 2px;
-  padding: 1px 2px;
-}
-
-.post_edit input#input_tags .btn-link{
-  background-color: #666;
 }
 
 /**************** 文章页面 article *****************/
@@ -350,57 +235,6 @@ article p:first-child:first-letter{
 .posts .posts_content ol, .posts .posts_content ul{
   margin: 15px 0;
 }
-/**************** 上传文件 upload 部分 *****************/
-.upload_div input{
-  display: initial;
-}
-.upload_div .btn{
-  width: 30%;
-}
-.upload_div h3{
-  margin: 40px 0 15px 0;
-}
-/**************** gallery 部分 *****************/
-.gallery #notes_list img{
-}
-#img_body{
-  height: 335px;
-}
-#img_body{
-  text-align: center;
-}
-#img_body span{
-  line-height: 300px;
-}
-#img_body img{
-  max-height: 300px;
-}
-#img_footer{
-  text-align: left;
-  min-height: 60px;
-}
-
-.modal{
-}
-.modal-dialog{
-  padding-top: 45px;
-}
-.modal-controls{
-  padding-top: 15px;
-}
-.close{
-  color: white;
-}
-.modal-header button{
-  padding: 0 5px;
-}
-.modal-header h3{
-  font-size: 1.1em;
-}
-#img_modal .modal-dialog .modal-content{
-  background-color: rgba(5, 5, 5, 0.81);
-  color: white;
-}
 
 /**************** 地图导航 site-map  *****************/
 .btn-link{
@@ -420,135 +254,6 @@ footer.footer_thanks a:hover{
   border-bottom: solid 1px #666;
 }
 
-/******************** nav *******************/
-.nav-tabs{
-  border-width: 0;
-}
-.brand{
-}
-
-.nav_header > li > a:hover, .nav_headerbar .nav_header > li > a:focus {
-	background-color: initial;
-}
-.active > a, .active > a:hover, .active > a:focus{
-}
-.nav_header .dropdown-menu > li > a:hover, .nav_header .dropdown-menu > li > a:focus{
-}
-.dropdown-menu{
-  border: 0;
-}
-.nav_header > li{
-  vertical-align: middle;
-}
-.nav_header > li > a{
-  padding: 20px 10px 15px;
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #232527;
-  border: 0;
-  border-radius: 0;
-}
-.nav_header > li.first > a{
-  padding-left: 0;
-}
-.nav_header > li.first {
-}
-
-.nav_header .dropdown:hover a.dropdown-title {
-    color: #FFFFFF;
-}
-
-ul.nav_header li.dropdown:hover > ul.dropdown-menu{
-    display: block;
-}
-
-ul.nav_header li.dropdown:hover {
-    background: #232527;
-}
-
-.dropdown-menu{
-    padding: 0;
-    margin: 0;
-}
-
-.nav_header > li > .dropdown-menu:before {
-  display: none;
-}
-
-.nav_header > li > .dropdown-menu:after {
-  display: none;
-}
-
-a.nav_header_panel{    /* 导航面板图标 */
-  background-image: url('../images/google-image-01.png');
-  background-position: 105px 112px;
-}
-a.nav_header_panel:hover, a.nav_header_panel:focus{
-  /*background-position: 143px 77px;*/
-}
-.header_panel .popover{
-}
-
-.header_panel .popover ul{
-}
-
-.header_panel .popover.bottom{
-  left: -40px;
-  top: auto;
-  width: 280px;
-}
-.header_panel .popover.bottom .arrow{
-  left: 20%;
-}
-.header_panel ul.metro_card li{
-  list-style: none;
-  float: left;
-  padding: 12px 10px;
-}
-.header_panel ul.metro_card li a{
-  display: inline-block;
-  width: 55px;
-  height: 55px;
-  text-align: center;
-}
-.header_panel ul.metro_card li a i{
-  padding: 10px;
-}
-.self_profile{
-  text-align: center;
-  margin-top: 20px;
-}
-.self_profile ul{
-  display: inline-block;
-}
-.nav_profile li a{
-  border: 0;
-}
-.nav_profile li.active a, .nav_profile li a{
-  border-width: 0 0 2px 0;
-  background: none;
-  color: #333;
-  margin: 0 8px;
-}
-.nav_profile > li > a:hover, .nav_profile > li > a:focus, .nav_profile li.active > a:hover, .nav_profile li.active > a:focus{
-  border: 2px solid blueviolet;
-  border-width: 0 0 2px 0;
-  background: none;
-  color: #999;
-}
-.nav_profile li.active a{
-  border-color: blueviolet;
-}
-
-
-/***************** profile ************/
-.user_prifile .row{
-  margin: 0 auto;
-}
-.user_profile .panel{
-  padding: 0;
-  margin: 15px;
-}
 
 /***************** posts ************/
 .posts_title h3{
@@ -760,7 +465,7 @@ form#logout{
 }
 .prettyprint ol li{
   line-height: 1.7em;
-  font-size: 0.8em;
+  font-size: 0.9em;
   background-color: initial;
 }
 .prettyprint ol li span{
@@ -783,13 +488,12 @@ div.ilovers{
 }
 .ilovers h2,.ilovers p,.ilovers ul, .ilovers ol{
   font-size: 1.00em;
-  line-height: 2.2em;
+  line-height: 2em;
   margin: 7px 0;
 }
 .ilovers h2{
   font-size: 1.05em;
   font-weight: bold;
-  color: red;
   margin: 10px 0 7px 0;
 }
 .ilovers.introduction h2{
@@ -797,7 +501,6 @@ div.ilovers{
 }
 .ilovers h3{
   font-size: 0.95em;
-  color: rgb(22, 143, 17);
   margin: 15px 0;
   font-weight: bold;
 }
@@ -917,6 +620,10 @@ pre.nocode{
   margin-right: 10px !important;
 }
 
+.post_header{
+  font-size: 1.3em;
+  text-align: center;
+}
 /* phone */
 @media (max-width: 500px) {
   input {

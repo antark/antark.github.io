@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>c++线程池实现</title>
+    <title>c++线程池实现|文琼</title>
     <link rel="stylesheet" href="./stylesheets/main.css">
     <!-- 语法高亮 -->
     <script src="./plugin/google-code-prettify/run_prettify.js"></script>
@@ -14,6 +14,7 @@
 </head>
 <body>
 <div class="ilovers">
+<h1 class="post_header">c++线程池的一个简单实现</h1>
 <p>咳咳。c++11 加入了线程库，从此告别了标准库不支持并发的历史。然而 c++ 对于多线程的支持还是比较低级，稍微高级一点的用法都需要自己去实现，譬如线程池、信号量等。线程池(thread pool)这个东西，在面试上多次被问到，一般的回答都是：“管理一个任务队列，一个线程队列，然后每次取一个任务分配给一个线程去做，循环往复。” 貌似没有问题吧。但是写起程序来的时候就出问题了。</p>
 <p>废话不多说，先上实现，然后再啰嗦。(dont talk, show me ur code !)</p>
 <pre><code class="prettyprint linenums lang-cpp">#ifndef ILOVERS_THREAD_POOL_H
