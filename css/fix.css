@@ -1,0 +1,24 @@
+
+/*
+ *
+ * fix css
+ *
+ */
+ html{
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+ }
+
+ .post-preview>a>.post-title {
+    font-size: 18px;
+    margin:20px 0;
+}
+
+.post-preview>a>.post-subtitle {
+    font-size: 13px;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.post-preview>.post-meta {
+    font-size: 10px;
+}

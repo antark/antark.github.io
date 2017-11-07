@@ -1,20 +1,177 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+
+  <head>
+
     <meta charset="utf-8">
-    <title>文琼的个人主页</title>
-    <link rel="stylesheet" href="./stylesheets/main.css">
-	<style>
-	    div.ilovers{margin:0 5px;}
-	</style>
-</head>
-<body>
-	<div class="ilovers">
-		<div class="main_container">
-			<ol>
-				<li><a href="./doc/cpp/cpp-thread-pool.html">c++线程池的一个简单实现版本</a></li>
-				<li><a href="./doc/golang/golang-specification.html">golang编程语言规范</a></li>
-			</ol>
-		</div>
-	</div>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>文琼</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/fix.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">文琼</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">主页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">关于我</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <!--<h1></h1>-->
+              <span class="subheading">子非鱼，安知鱼之乐？</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-preview">
+            <a href="doc/cpp/cpp-thread-pool.html">
+              <h2 class="post-title">
+                c++线程池的一个简单实现
+              </h2>
+              <h3 class="post-subtitle">
+                c++11 加入了线程库，从此告别了标准库不支持并发的历史。然而 c++ 对于多线程的支持还比较低级，高级一点的用法都需要自己去实现，譬如线程池、信号量等。线程池(thread pool)在工作中会经常遇到，目的呢，就是为了提高任务的执行效率；手段呢，就是分配多个线程并发执行。
+              </h3>
+            </a>
+            <p class="post-meta">写于 2016.01.01</p>
+          </div>
+          <hr>
+
+          <div class="post-preview">
+            <a href="doc/golang/golang-specification.html">
+              <h2 class="post-title">
+                golang编程语言规范
+              </h2>
+              <h3 class="post-subtitle">
+                golang编程语言规范中文版。
+              </h3>
+            </a>
+            <p class="post-meta">写于 2015.01.01</p>
+          </div>
+          <hr/>
+
+          <div class="post-preview">
+            <a href="#">
+              <h2 class="post-title">
+                scala函数式编程
+              </h2>
+              <h3 class="post-subtitle">
+                scala函数式编程examples。
+              </h3>
+            </a>
+            <p class="post-meta">写于 2015.01.01</p>
+          </div>
+          <hr>
+
+          <div class="post-preview">
+            <a href="#">
+              <h2 class="post-title">
+                nasm汇编
+              </h2>
+              <h3 class="post-subtitle">
+                mac下nasm汇编demo。
+              </h3>
+            </a>
+            <p class="post-meta">写于 2015.01.01</p>
+          </div>
+
+          <!-- Pager -->
+          <!--
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          </div>
+      	-->
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://weibo.com/maojiecao/home">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/antark">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; <a href="http://www.lrj.name">文琼</a> 2017</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
+
+</html>
