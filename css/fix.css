@@ -10,9 +10,48 @@ html{
 
 body{
     overflow-y: hidden;
+    background-image: url('../img/grey.png');
 }
 
 header.masthead{
-    background-image: url('../img/home-bg.jpg');
-    padding:200px 0;
+	background-color: initial;
+    padding:100px 0;
+}
+
+
+#mainNav .navbar-nav>li.nav-item>a{
+	color: black;
+}
+
+p{
+	font-size: 13px;
+	line-height: 2;
+}
+
+#mainNav .navbar-nav>li.nav-item>a:hover{
+	color:gray;
+}
+
+p a, a:hover, a:active{
+	text-decoration: none;
+}
+
+footer {
+	padding-top: 20px;
+}
+
+footer a {
+	font-size: 14px;
+}
+
+footer p a {
+	font-size: small;
+}
+
+.main-content p{
+	text-indent: 2em;
+}
+
+hr{
+	width: 80%;
 }
