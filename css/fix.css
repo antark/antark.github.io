@@ -9,7 +9,8 @@ html{
 }
 
 body{
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
+    font-size: small;
     background-image: url('../img/grey.png');
 }
 
@@ -26,6 +27,8 @@ header.masthead{
 p{
 	font-size: 13px;
 	line-height: 2;
+	margin:0 20px;
+	text-indent: 2em;
 }
 
 #mainNav .navbar-nav>li.nav-item>a:hover{
@@ -51,6 +54,11 @@ footer p a {
 .main-content p{
 	text-indent: 2em;
 }
+
+.main-content li{
+	line-height: 2em;
+}
+
 
 hr{
 	width: 80%;
