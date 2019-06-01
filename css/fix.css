@@ -16,7 +16,7 @@ body{
 
 header.masthead{
 	background-color: initial;
-    padding:100px 0;
+    padding:100px 0 0 0;
 }
 
 
@@ -26,8 +26,8 @@ header.masthead{
 
 p{
 	font-size: 13px;
-	line-height: 2;
-	margin:0 20px;
+	line-height: 2em;
+	margin:0;
 	text-indent: 2em;
 }
 
@@ -51,6 +51,19 @@ footer p a {
 	font-size: small;
 }
 
+.main-content .row{
+	margin: 7px 2px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.main-content h2{
+	font-size: 15px;
+}
+
+.main-content ul{
+	margin-left: -1em;
+}
+
 .main-content p{
 	text-indent: 2em;
 }
@@ -62,4 +75,12 @@ footer p a {
 
 hr{
 	width: 80%;
+}
+
+p.wx-profile{
+	text-align: center;
+}
+
+.wx-profile img{
+	width: 200px;
 }
