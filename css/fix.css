@@ -38,6 +38,9 @@ p{
 p a, a:hover, a:active{
 	text-decoration: none;
 }
+a:hover{
+	color: purple;
+}
 
 footer {
 	padding-top: 20px;
